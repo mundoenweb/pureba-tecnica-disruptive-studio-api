@@ -9,7 +9,7 @@ API para gestionar contenido multimedia accesible según los tipos de usuarios q
 npm install
 ```
 
--  Configurando variables
+2.  Configurando variables
 - -  Duplique el archivo .env.example y cambie la extensión a .env.local
 - -  Complete los valores de las variables
 
