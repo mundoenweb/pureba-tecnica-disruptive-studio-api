@@ -1,6 +1,5 @@
 import { Expose } from 'class-transformer'
 import {
-  IsAlpha,
   IsMongoId,
   IsNotEmpty,
   IsOptional,
@@ -29,7 +28,6 @@ export class PostRequest extends PostEntity {
 
   @Expose()
   @IsOptional()
-  @IsAlpha()
   @MaxLength(3000)
   declare text?: string
 
@@ -62,7 +60,6 @@ export class PostUpdateRequest extends PostEntity {
 
   @Expose()
   @IsOptional()
-  @IsAlpha()
   @MaxLength(3000)
   declare text?: string
 

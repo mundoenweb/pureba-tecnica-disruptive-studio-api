@@ -4,7 +4,7 @@ export class InvalidCredentialsException extends BaseException {
   constructor() {
     super({
       message: 'Usuario o email invalida',
-      status: 400,
+      status: 401,
     })
     this.name = InvalidCredentialsException.name
   }
